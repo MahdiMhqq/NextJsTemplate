@@ -43,3 +43,16 @@ yarn.lock
 
 # swc
 .swc
+
+# pwa
+sw.js
+sw.js.map
+workbox-*.js
+workbox-*.js.map
+
+# extra files
+.ideas
+.idea/deployment.xml
+.idea/vcs.xml
+.idea/workspace.xml
+/.idea/
