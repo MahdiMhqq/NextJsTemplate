@@ -11,10 +11,11 @@ Same goes for Module SASS but in purple color.
 
 Otherwise, if you can not see the colored text or the font weight is thin this packages didnt work properly.
 
-#### Additional Packages with this repo :
+#### Additional Packages and features with this repo :
 
 1. Axios
 2. Nprogress
+3. Storybook
 
 You can remove them and their types easily in package.json if you dont need them in your project.
 
@@ -48,6 +49,14 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+If you want to use storybook on your project follow the upcoming steps, otherwise jump this section.
+
+To test if the storybook support is running without any problems, please run the cli command below :
+```bash
+npm run storybook
+```
+After a while, you should automatically redirect to storybook UI in your browser.
 
 ## Learn More
 
